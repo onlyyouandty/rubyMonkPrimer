@@ -1,3 +1,25 @@
+def non_duplicated_values(values)
+  # Write your code here
+
+end
+
+non_duplicated_values([1,2,2,3,3,4,5])
+
+# def palindrome?(sentence)
+#   # Write your code here
+#   puts (sentence.delete(' ').downcase.reverse) == 
+#   (sentence.delete(' ').downcase)
+# end
+
+palindrome?("Never odd or even")
+
+
+# is_an_experienced_ruby_programmer =
+#   (candidate.languages_worked_with.include? 'Ruby') &&
+#   (candidate.years_of_experience >= 2 || candidate.github_points >= 500) &&
+# (candidate.age >= 15 && candidate.applied_recently? == false)
+
+
 # def random_select(array, n)
 # 	# (0..n-1).each {puts array.sample}
 # 	# puts
