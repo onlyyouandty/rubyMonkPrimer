@@ -1,7 +1,15 @@
-def random_select(array, n)
-
-end
-random_select( [1, 2, 3, 4, 5], 2 )
+# def random_select(array, n)
+# 	# (0..n-1).each {puts array.sample}
+# 	# puts
+# 	# 0.upto(n-1).each {puts array.sample}
+# 	# puts
+# 	# n.times { |i| puts array.sample }
+# 	# puts
+# 	# puts array.sample(n)
+# 	# puts
+# 	# puts array.sample(rand(n..n))
+# end
+# random_select( [331, 1104, 788, 245], 2 )
 
 # def sort_string(string)
 # 	puts string.split.sort_by {|x| x.length}.join(' ')
