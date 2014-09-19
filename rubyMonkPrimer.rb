@@ -1,17 +1,22 @@
-def non_duplicated_values(values)
-  # Write your code here
+# def array_of_fixnums?(array)
 
-end
+# 	puts array.all? { |i| i.class == Fixnum}
+# end
+# array_of_fixnums?( ['a',1,:b] )
 
-non_duplicated_values([1,2,2,3,3,4,5])
+# def non_duplicated_values(values)
+#   # Write your code here
+#   # values.find_all { |i| i != values[i]}
+#   puts values.find_all { |i| values.count(i) == 1}
+# end
+# non_duplicated_values([1,2,2,3,3,4,5])
 
 # def palindrome?(sentence)
 #   # Write your code here
 #   puts (sentence.delete(' ').downcase.reverse) == 
 #   (sentence.delete(' ').downcase)
 # end
-
-palindrome?("Never odd or even")
+# palindrome?("Never odd or even")
 
 
 # is_an_experienced_ruby_programmer =
