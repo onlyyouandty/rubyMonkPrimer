@@ -1,3 +1,14 @@
+# def kaprekar?(k)
+# 	# {if k = sum of k**2/splited into two}
+# puts k_sqr = k**2
+# puts limit = k_sqr.to_s.size/2
+# puts k_spt_frst = k_sqr.to_s[0,k_sqr.to_s.length/2]
+# puts k_spt_scnd = k_sqr.to_s[limit..k_sqr.to_s.length]
+# k_spt = k_spt_frst.to_i + k_spt_scnd.to_i
+# puts k == k_spt
+# end
+# kaprekar?(703)
+
 # def array_of_fixnums?(array)
 
 # 	puts array.all? { |i| i.class == Fixnum}
