@@ -1,34 +1,52 @@
-class Color
-  attr_reader :r, :g, :b
-  def initialize(r, g, b)
-    @r = r
-    @g = g
-    @b = b
-  end
-
-  def brightness_index 
-    ((299*self.r) + (587*self.g) + (114*self.b)) / 1000
-  end
-
-  def brightness_difference(another_color)
-    (brightness_index - another_color.brightness_index).abs
-  end
-
-  def hue_difference(another_color)
-    (r - another_color.r).abs +
-    (g - another_color.g).abs +
-    (b - another_color).abs
-  end
-
-  def enough_contrast?(another_color)
-    brightness_difference(another_color) > 125 &&
-    hue_difference(another_color) > 500
-  end
+def number_shuffle(number)
+  arr = Array.new
+  i = number.to_s.split('').shuffle
+  arr.push(i)
+  puts arr
+  puts i
 end
+puts number_shuffle(123)
 
-clr = Color.new(42,21,58)
-puts clr.brightness_index
-# puts clr.brightness_difference(another_color)
+# def exec_time(proc)
+#   # your code here
+#   start = Time.now
+#   proc
+#   finish = Time.now
+#   diff = finish - start
+# end
+# puts exec_time(2)
+
+# class Color
+#   attr_reader :r, :g, :b
+#   def initialize(r, g, b)
+#     @r = r
+#     @g = g
+#     @b = b
+#   end
+
+#   def brightness_index 
+#     ((299*self.r) + (587*self.g) + (114*self.b)) / 1000
+#   end
+
+#   def brightness_difference(another_color)
+#     (brightness_index - another_color.brightness_index).abs
+#   end
+
+#   def hue_difference(another_color)
+#     (r - another_color.r).abs +
+#     (g - another_color.g).abs +
+#     (b - another_color).abs
+#   end
+
+#   def enough_contrast?(another_color)
+#     brightness_difference(another_color) > 125 &&
+#     hue_difference(another_color) > 500
+#   end
+# end
+
+# clr = Color.new(42,21,58)
+# puts clr.brightness_index
+# # puts clr.brightness_difference(another_color)
 
 
 # def kaprekar?(k)
