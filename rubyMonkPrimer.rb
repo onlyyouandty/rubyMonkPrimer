@@ -1,11 +1,15 @@
-def number_shuffle(number)
-  arr = Array.new
-  i = number.to_s.split('').shuffle
-  arr.push(i)
-  puts arr
-  puts i
+def end
+	
 end
-puts number_shuffle(123)
+
+# def number_shuffle(number)
+#   arr = Array.new
+#   i = number.to_s.split('').shuffle
+#   arr.push(i)
+#   puts arr
+#   puts i
+# end
+# puts number_shuffle(123)
 
 # def exec_time(proc)
 #   # your code here
