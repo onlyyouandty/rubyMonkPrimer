@@ -1,15 +1,22 @@
-def end
-	
-end
+# class Restaurant
+# 	def initialize(menu)
+# 		@menu = menu
+# 	end
+
+# 	def
+# 		# your code here
+# 	end
+# end
 
 # def number_shuffle(number)
-#   arr = Array.new
-#   i = number.to_s.split('').shuffle
-#   arr.push(i)
-#   puts arr
-#   puts i
+# no_of_combinations = number.to_s.size == 3 ? 6 : 24
+# digits = number.to_s.split(//)
+# combinations = []
+# combinations << digits.shuffle.join.to_i while 
+# combinations.uniq.size != no_of_combinations
+# puts combinations.uniq.sort.count
 # end
-# puts number_shuffle(123)
+# number_shuffle(124)
 
 # def exec_time(proc)
 #   # your code here
